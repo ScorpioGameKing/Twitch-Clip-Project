@@ -1,0 +1,40 @@
+APIs: FLASK, Bun
+
+Useful Links: 
+    https://dev.twitch.tv/docs/api/clips/#getting-a-broadcasters-clips
+
+
+Twitch Clip Data Format:
+{
+  "data": [
+    {
+      "id": "AnimatedOptimisticWasabiVoteNay",
+      "url": "https://clips.twitch.tv/AnimatedOptimisticWasabiVoteNay",
+      "embed_url": "https://clips.twitch.tv/embed?clip=AnimatedOptimisticWasabiVoteNay",
+      "broadcaster_id": "423168062",
+      "broadcaster_name": "qa_vod_automation",
+      "creator_id": "7036025",
+      "creator_name": "Crono",
+      "video_id": "704533034",
+      "game_id": "27471",
+      "language": "en",
+      "title": "a",
+      "view_count": 1198514,
+      "created_at": "2020-08-10T17:04:10Z",
+      "thumbnail_url": "https://clips-media-assets2.twitch.tv/100660082970470268-offset-153206-preview-480x272.jpg",
+      "duration": 28,
+      "vod_offset": 222
+    },
+    . . .
+  ],
+  "pagination": {
+    "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6Ik1qQT0ifX0"
+  }
+}    
+
+
+Goals:
+    Create a database of the twitch clips either by hand (sucks) or Twitch Bot (possible but needs auth) if needed format data to something more useable format
+    Create a web front app for searching through the data
+    Ideal features would be searching by Clipper, Date, Game (Maybe not possible for old clips, twitch incorrectly labeled clips for ages) and if scaled, Broadcaster
+    If a bot is made and ran on the channel extra info like views, thumbnails etc should be easier to pull and display
