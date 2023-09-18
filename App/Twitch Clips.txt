@@ -1,11 +1,3 @@
-----TEMPLATE----
-
-User: 
-Title: 
-Link: 
-
-----TEMPLATE----
-
 User: Scorpiogameking
 Title: D-D-Doin It
 Link: https://clips.twitch.tv/ExpensiveDistinctTardigradeKippa-WUFs6Bhp8wUjS3Dr
