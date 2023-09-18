@@ -1,1 +1,8 @@
-**/_pycache__
+App/Lib/**
+App/Scripts/**
+App/pyvenv.cfg
+App/Include/**
+
+__pycache__/
+*.py[cod]
+*$py.class

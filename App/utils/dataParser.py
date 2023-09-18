@@ -17,7 +17,7 @@ def __get_sections(data: str) -> List[str]:
 def __parse_section(data: str) -> Clip:
     lines = data.split("\n")
 
-    line_split = [line.split(": ", 1) for line in lines]
+    line_split = [line.split(": ", 1) for line in lines if line]
 
     line_data = {split[0]: split[1] for split in line_split}
 
